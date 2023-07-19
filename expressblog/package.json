@@ -1,0 +1,19 @@
+{
+  "name": "expressblog",
+  "version": "1.0.0",
+  "description": "This is a blog applicaiton using Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Biplob",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7"
+  }
+}
